@@ -16,6 +16,7 @@
 }
 .row {
   margin-bottom: 0;
+  margin:0
 }
 
 .btn-white {
@@ -27,6 +28,14 @@
   font-weight: 700;
 }
 
+.btn-yellow {
+  background-color: #ffc107;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: 700;
+}
 
 /* -------------------- Estilos para nav-------------------- */
 
@@ -45,7 +54,7 @@ nav .brand-logo {
 
 /* -------------------- Estilos para la primera seccion-------------------- */  
 .parallax-container {
-  height: 55vh;
+  height: 100vh;
 }
 
 .img-taxi {
@@ -74,6 +83,11 @@ nav .brand-logo {
   padding: 2rem;
 }
 
+.padding-card {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .hr::before {
   content:" ";
   background-color:#fff;
@@ -92,3 +106,14 @@ nav .brand-logo {
   height: 0.1rem;
   margin-left: 2rem;
 }
+
+.img-conduce {
+  height: 55vh;
+}
+
+
+@media screen and (min-width: 769px) {
+  .img-conduce {
+    height: 90vh;
+  }
+  }
