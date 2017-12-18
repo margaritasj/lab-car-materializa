@@ -1,15 +1,35 @@
 /* ------------------ Reset ------------------ */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  background-color: #ffc107;
+.container-full {
+  width: 100%;
+  margin-top: 1.5rem;  
 }
 
-/* -------------------- Estilos -------------------- */
+.container-section {
+  width: 94%;
+}
+.row {
+  margin-bottom: 0;
+}
+
+.btn-white {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: 700;
+}
+
+
+/* -------------------- Estilos para nav-------------------- */
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -19,3 +39,56 @@ nav .brand-logo {
   font-size: inherit;
 }
 
+.navbar-fixed nav {
+  position: fixed;
+}
+
+/* -------------------- Estilos para la primera seccion-------------------- */  
+.parallax-container {
+  height: 55vh;
+}
+
+.img-taxi {
+  display: block;
+  width: 100vh;
+}
+
+/* -------------------- Estilos para la segunda seccion-------------------- */  
+.card-marck {
+  border: 0.15rem solid #ffffff;
+}
+
+.img-phone {
+  padding: 2rem;
+}
+
+.reduce-logo {
+  width: 30%;
+}
+
+.reduce-logo {
+  width: 15%;
+}
+
+.padding-text {
+  padding: 2rem;
+}
+
+.hr::before {
+  content:" ";
+  background-color:#fff;
+  position: relative;
+  display: inline-block;
+  width: 14rem;
+  height: 0.1rem;
+  margin-right: 2rem;
+}
+
+.hr::after{
+  content:" ";
+  background-color: #fff;
+  display: inline-block;
+  width: 14rem;
+  height: 0.1rem;
+  margin-left: 2rem;
+}
