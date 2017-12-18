@@ -1,1 +1,21 @@
-/* Los estilos de tu proyecto */
+/* ------------------ Reset ------------------ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffc107;
+}
+
+/* -------------------- Estilos -------------------- */
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+

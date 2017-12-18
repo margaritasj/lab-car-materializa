@@ -1,1 +1,64 @@
-<!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> LabCar </title>
+  <!--Import Favicon-->
+  <link rel="shortcut icon" href="assets/images/car-map.png" type="image/x-icon" />
+  <!--Import Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!--Import materialize.css-->
+  <link href="vendors/materialize/css/materialize.css" type="text/css" rel="stylesheet" />
+  <!-- Import style.css-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <!-- Barra de navegacion-->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">
+        <img src="assets/images/logoForma.png" alt="logo-labcar">
+      </a>
+      <!-- Para desktop-->
+      <ul class="right hide-on-med-and-down">
+        <li class="active">
+          <a href="#">Viaja</a>
+        </li>
+        <li>
+          <a href="#">Conduce</a>
+        </li>
+        <li>
+          <a href="#">Inicia sesión</a>
+        </li>
+      </ul>
+      <!-- Para movil-->
+      <ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">
+        <li class="active">
+          <a href="#">Viaja</a>
+        </li>
+        <li>
+          <a href="#">Conduce</a>
+        </li>
+        <li>
+          <a href="#">Inicia sesión</a>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+  </nav>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
+  <!--Import materialize.js-->
+  <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
+  <!-- app.js-->
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
+</html>
