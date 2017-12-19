@@ -168,12 +168,12 @@
                       <br>
                       <div class="input-field col s12 m12 l12">
                         <img class="material-icons prefix padding-icon" src="assets/images/shape.png" alt="shape">
-                        <input id="" type="text" class="autocomplete style-input">
+                        <input id="origin-input" type="text" class="style-input">
                         <label class="white-text" for="icon_prefix">Ingresa su punto de partida</label>
                       </div>
                       <div class="input-field col s12 m12 l12">
                         <img class="material-icons prefix padding-icon" src="assets/images/shape2.png" alt="shape2">
-                        <input id="" type="text" class="autocomplete style-input">
+                        <input id="destination-input" type="text" class="style-input">
                         <label class="white-text" for="icon_prefix">Ingresa su destino</label>
                       </div>
                       <div class="row">
@@ -201,8 +201,9 @@
     </section>
   </main>
 
-
-
+  <!--Import API de Google Maps-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvTX53cxZTTK1ySQ7XC7xD5ABm7-AvnC8&libraries=places&callback=initMap"
+    async defer></script>
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
   <!--Import materialize.js-->
