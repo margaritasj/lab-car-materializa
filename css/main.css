@@ -8,7 +8,6 @@
 
 .container-full {
   width: 100%;
-  margin-top: 1.5rem;  
 }
 
 .container-section {
@@ -29,7 +28,7 @@
 }
 
 .btn-yellow {
-  background-color: #ffc107;
+  background-color: #ffa000;
   color: #ffffff;
   border-radius: 0.5rem;
   padding: 1rem;
@@ -61,6 +60,9 @@ nav .brand-logo {
   display: block;
   width: 100vh;
 }
+.margin-top {
+  margin-top: 10rem;
+}
 
 /* -------------------- Estilos para la segunda seccion-------------------- */  
 .card-marck {
@@ -88,6 +90,7 @@ nav .brand-logo {
   padding-left: 0px;
 }
 
+
 .hr::before {
   content:" ";
   background-color:#fff;
@@ -108,12 +111,37 @@ nav .brand-logo {
 }
 
 .img-conduce {
-  height: 55vh;
+  height: 50vh;
 }
 
+/* -------------------- Estilos para la tercera seccion-------------------- */  
+
+.container-opacity {
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 50vh;
+  padding: 2.5rem;
+}
+
+/* -------------------- Estilos para la cuarta seccion-------------------- */  
+
+.padding-icon {
+  padding: 0.8rem;
+}
+
+.style-input {
+  border: 0.2rem solid #ffffff;
+  font-weight: 700;
+}
+
+.style-input[type=text]:not(.browser-default) {
+  border-bottom: 0.1rem solid #ffffff;
+}
+
+.style-input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 0.1rem solid #ffffff;
+  box-shadow: none;
+}
 
 @media screen and (min-width: 769px) {
-  .img-conduce {
-    height: 90vh;
-  }
+
   }
